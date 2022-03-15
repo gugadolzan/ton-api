@@ -1,13 +1,24 @@
 import express, { Request, Response } from "express";
 
+import { IProduct } from "./types";
+
 const app = express();
 
-const PORT = 8000;
+const PORT = 3000;
 
-app.get("/", (req: Request, res: Response) => {
-  res.send("Express + TypeScript");
+app.get("/", (_req: Request, res: Response) => {
+  const products = require("./data/ton-products.json");
+  res.status(200).json(products);
+});
+
+app.get("/:id", (req: Request, res: Response) => {
+  const products: IProduct[] = require("./data/ton-products.json");
+  const product: IProduct | undefined = products.find(
+    (p: IProduct) => p.id === parseInt(req.params.id)
+  );
+  res.status(200).json(product);
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running at http://localhost:${PORT}`);
+  console.log(`Listening on port ${PORT}`);
 });
