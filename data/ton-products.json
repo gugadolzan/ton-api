@@ -1,26 +1,126 @@
 [
   {
-    "id": 1,
+    "id": "t1",
     "title": "Maquininha T1",
     "price": 94.8,
-    "thumbnail": "https://res.cloudinary.com/dunz5zfpt/fl_progressive/f_auto,c_limit,w_256,q_100/site-ton/T1_FRENTE"
+    "thumbnail": "t1.png",
+    "details": [
+      {
+        "icon": "calendar.svg",
+        "text": "Receba suas vendas em 1 dia útil"
+      },
+      {
+        "icon": "shipping.svg",
+        "text": "Frete grátis para todo o Brasil"
+      },
+      {
+        "icon": "cellphone.svg",
+        "text": "Precisa de celular com bluetooth e conectado"
+      },
+      {
+        "icon": "sms.svg",
+        "text": "Comprovante via aplicativo e SMS"
+      }
+    ]
   },
   {
-    "id": 2,
+    "id": "t1-chip",
     "title": "Maquininha T1 Chip",
     "price": 178.8,
-    "thumbnail": "https://res.cloudinary.com/dunz5zfpt/fl_progressive/f_auto,c_limit,w_256,q_100/site-ton/t1-chip-1-1"
+    "thumbnail": "t1-chip.png",
+    "details": [
+      {
+        "icon": "calendar.svg",
+        "text": "Receba suas vendas em 1 dia útil"
+      },
+      {
+        "icon": "shipping.svg",
+        "text": "Frete grátis para todo o Brasil"
+      },
+      {
+        "icon": "no-cellphone.svg",
+        "text": "Não precisa de um celular"
+      },
+      {
+        "icon": "sms.svg",
+        "text": "Comprovante via aplicativo e SMS"
+      },
+      {
+        "icon": "wi-fi.svg",
+        "text": "Conexão Wi-Fi e chip de dados"
+      },
+      {
+        "icon": "nfc.svg",
+        "text": "Pagamento por aproximação (NFC)"
+      }
+    ]
   },
   {
-    "id": 3,
+    "id": "t2",
     "title": "Maquininha T2+",
     "price": 166.8,
-    "thumbnail": "https://res.cloudinary.com/dunz5zfpt/fl_progressive/f_auto,c_limit,w_256,q_100/site-ton/T2_FRENTE"
+    "thumbnail": "t2.png",
+    "details": [
+      {
+        "icon": "calendar.svg",
+        "text": "Receba suas vendas em 1 dia útil"
+      },
+      {
+        "icon": "shipping.svg",
+        "text": "Frete grátis para todo o Brasil"
+      },
+      {
+        "icon": "no-cellphone.svg",
+        "text": "Não precisa de um celular"
+      },
+      {
+        "icon": "sms.svg",
+        "text": "Comprovante via aplicativo ou SMS"
+      },
+      {
+        "icon": "wi-fi.svg",
+        "text": "Conexão Wi-Fi e chip de dados"
+      },
+      {
+        "icon": "nfc.svg",
+        "text": "Pagamento por aproximação (NFC)"
+      },
+      {
+        "icon": "battery.svg",
+        "text": "Bateria de longa duração (+ de 12h)"
+      }
+    ]
   },
   {
-    "id": 4,
+    "id": "t3",
     "title": "Maquininha T3",
     "price": 358.8,
-    "thumbnail": "https://res.cloudinary.com/dunz5zfpt/fl_progressive/f_auto,c_limit,w_256,q_100/site-ton/T3_FRENTE"
+    "thumbnail": "t3.png",
+    "details": [
+      {
+        "icon": "calendar.svg",
+        "text": "Receba suas vendas em 1 dia útil"
+      },
+      {
+        "icon": "shipping.svg",
+        "text": "Frete grátis para todo o Brasil"
+      },
+      {
+        "icon": "no-cellphone.svg",
+        "text": "Não precisa de um celular"
+      },
+      {
+        "icon": "receipt.svg",
+        "text": "Comprovante impresso, via aplicativo ou SMS"
+      },
+      {
+        "icon": "wi-fi.svg",
+        "text": "Conexão Wi-Fi e chip de dados"
+      },
+      {
+        "icon": "nfc.svg",
+        "text": "Pagamento por aproximação (NFC)"
+      }
+    ]
   }
 ]
