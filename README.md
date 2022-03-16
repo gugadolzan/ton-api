@@ -98,4 +98,6 @@ https://ton-api-1211.herokuapp.com/t2
 
 ## Referências
 
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Deploying Typescript Node.js applications to Heroku (with static files)](https://medium.com/developer-rants/deploying-typescript-node-js-applications-to-heroku-81dd75424ce0)
+- [Maquininha de Cartão de Crédito - Peça sua Maquineta | Ton](https://www.ton.com.br/)
