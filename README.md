@@ -86,3 +86,7 @@ https://ton-api-1211.herokuapp.com/t2
 2.  `t1-chip`
 3.  `t2`
 4.  `t3`
+
+## Referências
+
+- [Deploying Typescript Node.js applications to Heroku (with static files)](https://medium.com/developer-rants/deploying-typescript-node-js-applications-to-heroku-81dd75424ce0)
