@@ -4,6 +4,8 @@
 
 # Projeto API da Ton
 
+As requisições podem ser feitas a partir de https://ton-api-1211.herokuapp.com/
+
 ## Contexto
 
 Este projeto trata-se de uma API das maquininhas da Ton e todos seus endpoints seguem os princípios REST.
@@ -38,6 +40,8 @@ npm start
 
 Retorna a lista de todos os produtos:
 
+https://ton-api-1211.herokuapp.com/
+
 ```json
 [
   {
@@ -59,6 +63,8 @@ Retorna a lista de todos os produtos:
 
 Retorna os detalhes do produto baseado no `id` da rota. Exemplo quando o `id` é igual a `t2`:
 
+https://ton-api-1211.herokuapp.com/t2
+
 ```json
 {
   "id": "t2",
@@ -76,7 +82,7 @@ Retorna os detalhes do produto baseado no `id` da rota. Exemplo quando o `id` é
 
 #### Lista de `id`s disponíveis:
 
- 1. `t1`
- 2. `t1-chip`
- 3. `t2`
- 4. `t3`
+1.  `t1`
+2.  `t1-chip`
+3.  `t2`
+4.  `t3`
