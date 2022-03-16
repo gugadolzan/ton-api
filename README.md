@@ -1,4 +1,6 @@
-<img src="./ton.svg" alt="Ton logo" align="right">
+<a href="https://www.ton.com.br/" target="_blank">
+  <img src="./ton.svg" alt="Ton logo" align="right">
+</a>
 
 # Projeto API da Ton
 
