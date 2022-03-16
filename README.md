@@ -30,6 +30,8 @@ npm install
 
 1. Execute o comando:
 
+> A porta 3000 é utilizada para acessar a aplicação por padrão.
+
 ```bash
 npm start
 ```
