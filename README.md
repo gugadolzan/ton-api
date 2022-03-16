@@ -1,3 +1,5 @@
+<img src="./ton.svg" alt="Ton logo" align="right">
+
 # Projeto API da Ton
 
 ## Contexto
