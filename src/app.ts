@@ -1,11 +1,11 @@
 import express from "express";
 
-import ProductRouter from "./routes/Product";
+import productRouter from "./routes/product.route";
 import error from "./middlewares/error";
 
 const app = express();
 
-app.use("/", ProductRouter);
+app.use("/", productRouter);
 
 app.use(error);
 
