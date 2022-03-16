@@ -50,14 +50,17 @@ https://ton-api-1211.herokuapp.com/
     "id": "t1",
     "title": "Maquininha T1",
     "price": 94.8,
-    "thumbnail": "t1.png",
-    "details": [
+    "thumbnail": "https://raw.githubusercontent.com/gugadolzan/ton-api/main/assets/frontview/t1.png",
+    "thumbnailAlt": "https://raw.githubusercontent.com/gugadolzan/ton-api/main/assets/sideview/t1.png",
+        "details": [
       {
-        "icon": "calendar.svg",
+        "icon": "https://raw.githubusercontent.com/gugadolzan/ton-api/main/assets/icons/calendar.png",
         "text": "Receba suas vendas em 1 dia útil"
-      }, ...
+      },
+      ...
     ]
-  }, ...
+  },
+  ...
 ]
 ```
 
@@ -72,12 +75,14 @@ https://ton-api-1211.herokuapp.com/t2
   "id": "t2",
   "title": "Maquininha T2+",
   "price": 166.8,
-  "thumbnail": "t2.png",
+  "thumbnail": "https://raw.githubusercontent.com/gugadolzan/ton-api/main/assets/frontview/t2.png",
+  "thumbnailAlt": "https://raw.githubusercontent.com/gugadolzan/ton-api/main/assets/sideview/t2.png",
   "details": [
     {
-      "icon": "calendar.svg",
+      "icon": "https://raw.githubusercontent.com/gugadolzan/ton-api/main/assets/icons/calendar.png",
       "text": "Receba suas vendas em 1 dia útil"
-    }, ...
+    },
+    ...
   ]
 },
 ```
