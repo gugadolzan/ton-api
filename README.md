@@ -2,13 +2,13 @@
   <img src="./ton.svg" alt="Ton logo" align="right">
 </a>
 
-# Projeto API da Ton
+# Projeto API do Ton
 
 As requisições podem ser feitas a partir de https://ton-api-1211.herokuapp.com/
 
 ## Contexto
 
-Este projeto trata-se de uma API das maquininhas da Ton e todos seus endpoints seguem os princípios REST.
+Este projeto trata-se de uma API das maquininhas do Ton e todos seus endpoints seguem os princípios REST.
 
 Nela, é possível fazer uma requisição que retorna todos os dados, assim como uma requisição por ID que retorna somente o produto especificado.
 
